@@ -1,0 +1,70 @@
+{
+  "name": "flappyPebble",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "flappyPebble",
+    "uuid": "1b88862d-27a8-4a30-b119-9dec722105d0",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+    "media": [
+      {
+        "type":"raw",
+        "name":"TITLE",
+        "file":"images/title.png"
+      }, {
+        "type":"raw",
+        "name":"PANDA",
+        "file":"images/panda.png"
+      }, {
+        "type":"raw",
+        "name":"EXPLOSION",
+        "file":"images/explosion.png"
+      }, {
+        "type":"raw",
+        "name":"PIPES",
+        "file":"images/pipes.png"
+      }, {
+        "type":"raw",
+        "name":"BANANA",
+        "file":"images/banana.png"
+      }, {
+        "type":"raw",
+        "name":"WATERMELLON",
+        "file":"images/watermellon.png"
+      }, {
+        "type":"raw",
+        "name":"STRAWBERRY",
+        "file":"images/strawberry.png"
+      }, {
+        "type":"raw",
+        "name":"PINEAPPLE",
+        "file":"images/pineapple.png"
+      }, {
+        "type":"raw",
+        "name":"BOMB",
+        "file":"images/bomb.png"
+      }, {
+        "type":"raw",
+        "name":"HEART",
+        "file":"images/heart.png"
+      }
+    ]
+    }
+  }
+}
